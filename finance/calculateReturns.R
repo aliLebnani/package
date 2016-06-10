@@ -1,4 +1,6 @@
-# 6/10/2016=
+# 6/10/2016
+
+## Time-weighted returns
 # Could also implement recursively
 geometricReturn <- function(listOfReturns,help="n") { 
 
@@ -40,8 +42,4 @@ result <- (result)/n;
 return(result)
 }
 
-
-
-
-
-
+## Money (Currency) -weighted returns

@@ -1,0 +1,15 @@
+#R
+
+#Install package (generally one time)
+install.packages('financial')
+
+# Load package
+library(financial)
+
+#Unload package
+detach(package:financial)
+
+#Search for package
+help.search()
+??
+RSiteSearch() 
