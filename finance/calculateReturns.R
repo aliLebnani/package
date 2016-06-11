@@ -1,5 +1,8 @@
 # 6/10/2016
 
+
+source("C:/Development/package/finance/irrytmCalculation.R")
+
 ## Time-weighted returns
 # Could also implement recursively
 geometricReturn <- function(listOfReturns,help="n") { 

@@ -13,3 +13,11 @@ detach(package:financial)
 help.search()
 ??
 RSiteSearch() 
+
+install.packages('devtools')
+library(devtools)
+
+# load package w/o installing
+load_all('C:/Development/package')
+
+source("C:/Development/package")
